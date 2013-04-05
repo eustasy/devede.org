@@ -31,8 +31,7 @@
 	<div class="col span_1_of_2" id="eustasy">
 		<div class="bubble standard">
 			<h3>eustasy</h3>
-			<p><a href="http://www.eustasy.org/">eustasy</a> are also available to provide free support for various issues with useage and/or errors.</p>
-			<p class="right">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#100;&#101;&#118;&#101;&#100;&#101;&#046;&#111;&#114;&#103;</p>
+			<p><a href="http://www.eustasy.org/">eustasy</a> are the creators of this website, and you can see it's development on <a href="https://github.com/eustasy/www.devede.org">GitHub</a>.</p>
 		</div>
 	</div>
 	<div class="col span_1_of_2" id="gorum">
