@@ -31,7 +31,7 @@
 	<div class="col span_1_of_2" id="eustasy">
 		<div class="bubble standard">
 			<h3>eustasy</h3>
-			<p><a href="http://www.eustasy.org/">eustasy</a> are the creators of this website, and you can see it's development on <a href="https://github.com/eustasy/www.devede.org">GitHub</a>.</p>
+			<p><a href="http://www.eustasy.org/">eustasy</a> are the creators of this website, and you can see it's development on <a href="https://github.com/eustasy/www.devede.org">GitHub</a>. You should post an issue there if you have a problem with this site.</p>
 		</div>
 	</div>
 	<div class="col span_1_of_2" id="gorum">
