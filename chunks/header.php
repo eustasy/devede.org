@@ -11,7 +11,7 @@
 	<link rel="shortcut icon" href="http://www.eustasy.org/favicon.ico">
 
 	<link rel="stylesheet" media="all"href="http://www.eustasy.org/css/col.min.css">
-	<link rel="stylesheet" media="all" href="http://www.devede.org/style.css" >
+	<link rel="stylesheet" media="all" href="http://www.devede.org/chunks/style.css" >
 
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
