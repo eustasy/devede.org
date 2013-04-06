@@ -29,6 +29,8 @@ header {
 	margin: 5% 0 0;
 	}
 
+.section { margin: 3% 0; }
+
 h1 {
 	color: #121212;
 	font: 200 73px/125px Raleway, Sans;
@@ -342,7 +344,7 @@ button::-moz-focus-inner,input::-moz-focus-inner {
 	line-height: 1.4;
 	}
 
-::-webkit-selection,::-moz-selection,: : selection {
+::-webkit-selection,::-moz-selection,::selection {
 	background: #1777af;
 	color: #fafafa;
 	text-shadow: none;
