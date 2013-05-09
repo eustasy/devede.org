@@ -1,28 +1,31 @@
 <?php 
 
-// Open the file for reading 
-$fp = fopen("log.txt", "r"); 
+// Attempt to Open the file for reading
+if (($fp = fopen("log.txt", "r")) !== false) { // If successful
 
-// Get the existing count 
-$count = fread($fp, 1024); 
+	// Get the existing count 
+	$count = fread($fp, 1024); 
 
-// Close the file 
-fclose($fp); 
+	// Close the file 
+	fclose($fp); 
 
-// Add 1 to the existing count 
-$count = $count + 1; 
+	// Add 1 to the existing count 
+	$count = $count + 1; 
 
-// Display the number of hits 
-// If you don't want to display it, comment out this line
-echo 'Downloads: <a href="http://www.devede.org/download/count/">' . $count . '</a>'; 
+	// Display the number of hits 
+	echo 'Downloads: <a href="http://www.devede.org/download/count/">' . $count . '</a>'; 
 
-// Reopen the file and erase the contents 
-$fp = fopen("log.txt", "w"); 
+} // Finish Read
 
-// Write the new count to the file 
-fwrite($fp, $count); 
+// Attempt to Reopen the file and erase the contents
+if (($fp = fopen("log.txt", "w")) !== false) { // If successful
 
-// Close the file 
-fclose($fp); 
+	// Write the new count to the file 
+	fwrite($fp, $count); 
+
+	// Close the file 
+	fclose($fp); 
+
+} // Finish Write
 
 ?> 
