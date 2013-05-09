@@ -1,0 +1,14 @@
+http://www.devede.org/
+http://www.devede.org/about/
+http://www.devede.org/contact/
+http://www.devede.org/download/
+http://www.devede.org/download/count/
+http://www.devede.org/download/ubuntu/
+http://www.devede.org/download/windows/
+http://www.devede.org/download/previous-windows/
+http://www.devede.org/download/source/
+http://www.devede.org/download/other/
+http://www.devede.org/faq/
+http://www.devede.org/features/
+http://www.devede.org/installation/
+http://www.devede.org/operation/
