@@ -310,6 +310,11 @@ footer a:hover img {
 	transition: all 300ms ease-in-out;
 	}
 
+.eustasy {
+	max-width: 70%;
+	margin: 5% 15%;
+	}
+
 html {
 	-ms-text-size-adjust: 100%;
 	-webkit-overflow-scrolling: touch;

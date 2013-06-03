@@ -1,8 +1,8 @@
-<?php require 'chunks/doctype.php'; ?>
+<?php include 'chunks/doctype.php'; ?>
 
 	<title>DeVeDe &nbsp;&middot;&nbsp; Free Video to DVD Converter.</title>
 
-	<?php require 'chunks/header.php'; ?>
+	<?php include 'chunks/header.php'; ?>
 
 <?php
 
@@ -64,7 +64,7 @@ if ($ua) {
 			<p class="right">Continue at your peril.</p>
 		</div>
 	</div>
-<?php require 'chunks/warning.php';
+<?php include 'chunks/warning.php';
 
 } else { ?>
 <!-- Unable to Detect Operating System -->
@@ -76,7 +76,7 @@ if ($ua) {
 			<p class="right">Continue at your peril.</p>
 		</div>
 	</div>
-<?php require 'chunks/warning.php';
+<?php include 'chunks/warning.php';
 
 }} ?>
 
@@ -112,4 +112,4 @@ if ($ua) {
 
 
 
-<?php require 'chunks/footer.php'; ?>
+<?php include 'chunks/footer.php'; ?>
