@@ -13,7 +13,8 @@ if (($fp = fopen("log.txt", "r")) !== false) { // If successful
 	$count = $count + 1; 
 
 	// Display the number of hits 
-	echo 'Downloads: <a href="http://www.devede.org/download/count/">' . $count . '</a>'; 
+	$n_count = number_format($count);
+	echo 'Downloads: <a href="http://www.devede.org/download/count/">' . $n_count . '</a>'; 
 
 } // Finish Read
 
