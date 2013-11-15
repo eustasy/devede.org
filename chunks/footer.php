@@ -1,4 +1,4 @@
-</div>
+	</div>
 </div>
 
 
@@ -9,8 +9,8 @@
 		<div class="section group">
 
 			<div class="col span_1_of_6">
-				<a href="http://www.eustasy.org/" title="eustasy organisation"><img src="http://www.eustasy.org/images/eustasy-light.png" class="eustasy"></a>
-				<p class="center">an <a href="http://www.eustasy.org/classes/openshout/">openshout</a> site</p>
+				<a href="http://eustasy.org/" title="eustasy organisation"><img src="http://eustasy.org/images/eustasy-light.png" class="eustasy"></a>
+				<p class="center">an <a href="http://eustasy.org/classes/openshout">openshout</a> site</p>
 			</div>
 
 			<div class="col span_1_of_12"></div>
@@ -18,11 +18,11 @@
 			<div class="col span_1_of_6">
 				<h4>legal</h4>
 				<ul>
-					<li><a href="http://www.eustasy.org/legal/website-disclaimer/" title="Website Disclaimer">disclaimer</a></li>
-					<li><a href="http://www.eustasy.org/legal/copyright-notice/" title="Copyright Notice">copyright</a></li>
-					<li><a href="http://www.eustasy.org/legal/cookie-policy/" title="Cookie Policy">cookies</a></li>
-					<li><a href="http://www.eustasy.org/legal/privacy-policy/" title="Privacy Policy">privacy</a></li>
-					<li><a href="http://www.eustasy.org/legal/terms-of-service/" title="Terms Of Service">terms</a></li>
+					<li><a href="http://eustasy.org/legal/website-disclaimer" title="Website Disclaimer">disclaimer</a></li>
+					<li><a href="http://eustasy.org/legal/copyright-notice" title="Copyright Notice">copyright</a></li>
+					<li><a href="http://eustasy.org/legal/cookie-policy" title="Cookie Policy">cookies</a></li>
+					<li><a href="http://eustasy.org/legal/privacy-policy" title="Privacy Policy">privacy</a></li>
+					<li><a href="http://eustasy.org/legal/terms-of-service" title="Terms Of Service">terms</a></li>
 				</ul>
 			</div>
 
@@ -62,8 +62,6 @@
 		</div>
 
 </footer>
-
-
 
 
 
