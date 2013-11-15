@@ -7,10 +7,10 @@
 	<meta name="keywords" content="DeVeDe, dvd, video, video to dvd, download, free, files, convert, format, transfer, burn, play, copy, creator">
 	<meta name="description" content="DeVeDe is a free, open-source Video to DVD converter. It will transform various formats of video to a DVD Player playable video DVD, VideoCD, Super VideoCD, China VideoDisc, or DivX/MPEG-4 compliant image which it will then offer to start burning to any writable disc type. You can download DeVeDe for free and start converting AVI, MP4 and MPG to DVD now, no watermarks, no premium version.">
 
-	<link rel="icon" href="http://www.eustasy.org/favicon.ico">
-	<link rel="shortcut icon" href="http://www.eustasy.org/favicon.ico">
+	<link rel="icon" href="http://eustasy.org/favicon.ico">
+	<link rel="shortcut icon" href="http://eustasy.org/favicon.ico">
 
-	<link rel="stylesheet" media="all"href="http://www.eustasy.org/css/col.min.css">
+	<link rel="stylesheet" media="all"href="http://eustasy.org/css/col.min.css">
 	<link rel="stylesheet" media="all" href="http://www.devede.org/chunks/style.css" >
 
 	<script>
