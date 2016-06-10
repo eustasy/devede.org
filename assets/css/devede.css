@@ -226,3 +226,9 @@ hr {
 	color: #fafafa;
 	text-shadow: none;
 }
+
+#cookie-compliance-banner {
+	background: #eee;
+	padding: 1rem;
+	text-align: center;
+}
