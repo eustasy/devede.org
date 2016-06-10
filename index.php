@@ -8,6 +8,24 @@
 ?>
 
 <section class="grid">
+	<div class="whole large-two-thirds">
+		<h4>About</h4>
+		<p><a href="/about" title="About DeVeDe">DeVeDe</a> is a free, open-source Video to DVD converter. It will transform various <a href="/faq#formats" title="Video Formats DeVeDe supports.">formats</a> of video to a DVD Player playable video <a href="/faq#discs" title="Different types of writable discs.">DVD</a>, VideoCD, Super VideoCD, China VideoDisc, or DivX/MPEG-4 compliant image which it will then offer to start burning it. You can download DeVeDe for free and start converting AVI, MP4 and MPG to DVD now, no watermarks, no premium version.</p>
+	</div>
+	<div class="whole large-third align-center">
+		<h4>Converts:</h4>
+		<ul class="list-style-none">
+			<li>AVI to DVD</li>
+			<li>MP4 to DVD</li>
+			<li>MPG to DVD</li>
+			<li>DVD to AVI</li>
+			<li>DVD to MP4</li>
+			<li>DVD to MPG</li>
+		</ul>
+	</div>
+</section>
+
+<section class="grid">
 
 <?php if ( $Sitewide['OS']['windows'] ) { ?>
 	<!-- Windows -->
@@ -58,24 +76,6 @@
 <?php } ?>
 
 	<p class="align-center"><a href="/download/choose" title="Other ways to get DeVeDe / Get DeVeDe for Other Systems.">Other ways to get DeVeDe / Get DeVeDe for Other Systems.</a></p>
-</section>
-
-<section class="grid">
-	<div class="whole large-two-thirds">
-		<h4>About</h4>
-		<p><a href="/about" title="About DeVeDe">DeVeDe</a> is a free, open-source Video to DVD converter. It will transform various <a href="/faq#formats" title="Video Formats DeVeDe supports.">formats</a> of video to a DVD Player playable video <a href="/faq#discs" title="Different types of writable discs.">DVD</a>, VideoCD, Super VideoCD, China VideoDisc, or DivX/MPEG-4 compliant image which it will then offer to start burning it. You can download DeVeDe for free and start converting AVI, MP4 and MPG to DVD now, no watermarks, no premium version.</p>
-	</div>
-	<div class="whole large-third align-center">
-		<h4>Converts:</h4>
-		<ul class="list-style-none">
-			<li>AVI to DVD</li>
-			<li>MP4 to DVD</li>
-			<li>MPG to DVD</li>
-			<li>DVD to AVI</li>
-			<li>DVD to MP4</li>
-			<li>DVD to MPG</li>
-		</ul>
-	</div>
 </section>
 
 <?php
