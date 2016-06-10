@@ -16,7 +16,7 @@
 	</div>
 	<div class="whole medium-half">
 		<h3>What Disc Types does DeVeDe Support?</h3>
-		<p class="important">If you have the disc, it's writable, and you have a disk drive that can burn it, DeVeDe will do it. DeVeDe doesn't actually carry out the burning itself isntead simply handling creating a disk image, than handing that work out. On Ubuntu, this usually means Brasero.</p>
+		<p class="important">If you have the disc, it's writable, and you have a disk drive that can burn it, DeVeDe will do it. DeVeDe doesn't actually carry out the burning itself instead simply handling creating a disk image, than handing that work out. On Ubuntu, this usually means Brasero.</p>
 		<p>CD-R, CD+R, CD-RW, CD+RW, DVD-R, DVD+R, DVD-RW, or DVD+RW are common, with writable HD-DVDs never really catching on, but BluRay are gaining popularity.</p>
 	</div>
 </section>
