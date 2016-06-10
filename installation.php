@@ -40,10 +40,6 @@
 		</ol>
 	</div>
 
-
-
-	<!-- TODO New System Instructions, Links, Cleanup -->
-
 <?php } else { if ($osx) { // OS X ?>
 <!-- OS X -->
 <div class="section group">
