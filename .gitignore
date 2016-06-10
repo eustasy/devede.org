@@ -1,5 +1,4 @@
-download/other/thanks/log.txt
-download/previous-windows/thanks/log.txt
-download/source/thanks/log.txt
-download/ubuntu/thanks/log.txt
-download/windows/thanks/log.txt
+# Standard
+*custom*
+*~
+*.log

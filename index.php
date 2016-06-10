@@ -1,115 +1,82 @@
-<?php include 'chunks/doctype.php'; ?>
+<?php
+	require_once __DIR__.'/_puff/sitewide.php';
+	$Page['Type']  = 'Page';
+	$Page['Title'] = 'DeVeDe &nbsp;&middot;&nbsp; Free Video to DVD Converter.';
+	$Page['Keywords'] = 'DeVeDe, dvd, video, video to dvd, download, free, files, convert, format, transfer, burn, play, copy, creator';
+	$Page['Description'] = 'DeVeDe is a free, open-source Video to DVD converter. It will transform various formats of video to a DVD Player playable video DVD, VideoCD, Super VideoCD, China VideoDisc, or DivX/MPEG-4 compliant image which it will then offer to start burning to any writable disc type. You can download DeVeDe for free and start converting AVI, MP4 and MPG to DVD now, no watermarks, no premium version.';
+	require_once $Sitewide['Templates']['Header'];
+?>
 
-	<title>DeVeDe &nbsp;&middot;&nbsp; Free Video to DVD Converter.</title>
+<section class="grid">
 
-	<?php include 'chunks/header.php'; ?>
+<?php if ( $Sitewide['OS']['windows'] ) { ?>
+	<!-- Windows -->
+	<a href="/download/windows" title="Download for Windows 7, 8, &amp; 10" class="whole button windows prefered">
+		<img src="/assets/images/system-windows.png" alt="Windows 10 Logo" class="float-left">
+		<h2>Download for Windows 7, 8, &amp; 10</h2>
+	</a>
+	<a href="/download/windows-previous" title="Download for Windows 7, 8, &amp; 10" class="whole button windows-previous deprecated">
+		<img src="/assets/images/system-windows-previous.png" alt="Windows Vista Logo" class="float-left">
+		<h2>Download for Windows Vista</h2>
+	</a>
+
+<?php } else if ( $Sitewide['OS']['linux'] ) { ?>
+	<!-- Linux -->
+	<a href="/download/ubuntu" title="Download for Ubuntu" class="whole button ubuntu prefered">
+		<img src="/assets/images/system-ubuntu.png" alt="Ubuntu Logo" class="float-left">
+		<h2>Download for Ubuntu</h2>
+	</a>
+	<a href="/download/debian" title="Download for Debian" class="whole button debian">
+		<img src="/assets/images/system-debian.png" alt="Debian Logo" class="float-left">
+		<h2>Download for Debian</h2>
+	</a>
+	<a href="/download/fedora" title="Download for Fedora" class="whole button fedora">
+		<img src="/assets/images/system-fedora.png" alt="Fedora Logo" class="float-left">
+		<h2>Download for Fedora</h2>
+	</a>
+	<a href="/download/arch" title="Download for Arch" class="whole button arch">
+		<img src="/assets/images/system-arch.png" alt="Arch Logo" class="float-left">
+		<h2>Download for Arch</h2>
+	</a>
+
+<?php } else if ( $Sitewide['OS']['osx'] ) { ?>
+	<!-- OS X -->
+	<div class="whole button warning">
+		<h2><i class="fa fa-exclamation-triangle"></i> Warning!</h2>
+		<p>You appear to be using OS X, and this application is not compatible with that system.</p>
+		<p>Continue at your peril.</p>
+	</div>
+
+<?php } else { ?>
+	<!-- Unable to Detect Operating System -->
+	<div class="whole button warning">
+		<h2><i class="fa fa-exclamation-triangle"></i> Warning!</h2>
+		<p>We couldn't detect your Operating System, and as such cannot guarantee this applications compatibility.</p>
+		<p>Continue at your peril.</p>
+	</div>
+
+<?php } ?>
+
+	<p class="align-center"><a href="/download/choose" title="Other ways to get DeVeDe / Get DeVeDe for Other Systems.">Other ways to get DeVeDe / Get DeVeDe for Other Systems.</a></p>
+</section>
+
+<section class="grid">
+	<div class="whole large-two-thirds">
+		<h4>About</h4>
+		<p><a href="/about" title="About DeVeDe">DeVeDe</a> is a free, open-source Video to DVD converter. It will transform various <a href="/faq#formats" title="Video Formats DeVeDe supports.">formats</a> of video to a DVD Player playable video <a href="/faq#discs" title="Different types of writable discs.">DVD</a>, VideoCD, Super VideoCD, China VideoDisc, or DivX/MPEG-4 compliant image which it will then offer to start burning it. You can download DeVeDe for free and start converting AVI, MP4 and MPG to DVD now, no watermarks, no premium version.</p>
+	</div>
+	<div class="whole large-third align-center">
+		<h4>Converts:</h4>
+		<ul class="list-style-none">
+			<li>AVI to DVD</li>
+			<li>MP4 to DVD</li>
+			<li>MPG to DVD</li>
+			<li>DVD to AVI</li>
+			<li>DVD to MP4</li>
+			<li>DVD to MPG</li>
+		</ul>
+	</div>
+</section>
 
 <?php
-
-include("chunks/detect-two.php");
-
-if ($ua) {
-
-	if ($windows) { // Windows
-
-?>
-<!-- Windows -->
-<div class="section group" id="downloads">
-	<div class="col span_3_of_5">
-		<a href="http://www.devede.org/download/windows/" title="Download for Windows 7 and 8">
-			<div class="bubble windows prefered">
-				<h2>Download for<br>Windows 7 &amp; 8</h2>
-			</div>
-		</div>
-	</a>
-	<div class="col span_2_of_5">
-		<a href="http://www.devede.org/download/previous-windows/" title="Download DeVeDe for Windows Vista and XP.">
-			<div class="bubble previous-windows">
-				<h3>Download for Windows XP and Vista</h3>
-			</div>
-		</a>
-	</div>
-	<p class="center"><a href="http://www.devede.org/download/choose/" title="Other ways to get DeVeDe / Get DeVeDe for Other Systems.">Other ways to get DeVeDe and  DeVeDe for Other Systems.</a></p>
-</div>
-
-<?php } elseif ($linux) { // Linux ?>
-<!-- Linux -->
-<div class="section group" id="downloads">
-	<div class="col span_3_of_5">
-		<a href="http://www.devede.org/download/ubuntu/" title="Download DeVeDe for Ubuntu.">
-			<div class="bubble ubuntu prefered">
-				<h2>Download for Ubuntu</h2>
-				<p>Download the .deb Debian Package for Ubuntu and other Debian based linux distributions.</p>
-			</div>
-		</a>
-	</div>
-	<div class="col span_2_of_5">
-		<a href="http://www.devede.org/download/source/" title="Download the Source of DeVeDe.">
-			<div class="bubble source">
-				<h3>Download the Source</h3>
-				<p>Download the Source of DeVeDe in a .tar.bz2 archive.</p>
-			</div>
-		</a>
-	</div>
-	<p class="center"><a href="http://www.devede.org/download/choose/" title="Other ways to get DeVeDe / Get DeVeDe for Other Systems.">Other ways to get DeVeDe and  DeVeDe for Other Systems.</a></p>
-</div>
-
-<?php } elseif ($osx) { // OS X ?>
-<!-- OS X -->
-<div class="section group">
-	<div class="col span_2_of_4">
-		<div class="bubble warning">
-			<h2>Warning!</h2>
-			<p>You appear to be using OS X, and this application is not compatible with that system.</p>
-			<p class="right">Continue at your peril.</p>
-		</div>
-	</div>
-<?php include 'chunks/warning.php';
-
-} else { ?>
-<!-- Unable to Detect Operating System -->
-<div class="section group">
-	<div class="col span_2_of_4">
-		<div class="bubble warning">
-			<h2>Warning!</h2>
-			<p>We couldn't detect your Operating System, and as such cannot guarantee this applications compatibility.</p>
-			<p class="right">Continue at your peril.</p>
-		</div>
-	</div>
-<?php include 'chunks/warning.php';
-
-}} ?>
-
-
-
-<div class="section group">
-	<div class="bubble standard">
-		<div class="col span_4_of_6">
-			<h4>About</h4>
-			<p><a href="http://www.devede.org/about/" title="About DeVeDe">DeVeDe</a> is a free, open-source Video to DVD converter. It will transform various <a href="http://www.devede.org/faq/#formats" title="Video Formats DeVeDe supports.">formats</a> of video to a DVD Player playable video <a href="http://www.devede.org/faq/#discs" title="Different types of writable discs.">DVD</a>, VideoCD, Super VideoCD, China VideoDisc, or DivX/MPEG-4 compliant image which it will then offer to start burning it. You can download DeVeDe for free and start converting AVI, MP4 and MPG to DVD now, no watermarks, no premium version</p>
-		</div>
-		<div class="col span_1_of_6">
-			<ul>
-				<li>AVI to DVD</li>
-				<li>MP4 to DVD</li>
-				<li>MPG to DVD</li>
-			</ul>
-		</div>
-		<div class="col span_1_of_6">
-			<ul>
-				<li>DVD to AVI</li>
-				<li>DVD to MP4</li>
-				<li>DVD to MPG</li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
-
-
-
-
-
-
-
-<?php include 'chunks/footer.php'; ?>
+	require_once $Sitewide['Templates']['Footer'];
