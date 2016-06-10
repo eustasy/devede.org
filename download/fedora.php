@@ -3,14 +3,14 @@
 	$Page['Type']  = 'Page';
 	$Page['Title'] = 'Download DeVeDe for Fedora &nbsp;&middot;&nbsp; DeVeDe, Free Video to DVD Converter.';
 
-	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=http://www.rastersoft.com/descargas/devedeng/devedeng.fedora23-4.7.0-1.noarch.rpm">
-	<script>
-	if (window.ga) {
-		ga("send", "event", "Download", "Fedora");
-	}
-</script>';
+	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=http://www.rastersoft.com/descargas/devedeng/devedeng.fedora23-4.7.0-1.noarch.rpm">';
 	require_once $Sitewide['Templates']['Header'];
 ?>
+<script>
+	if ( window.ga ) {
+		ga("send", "event", "Download", "Fedora");
+	}
+</script>
 
 <section>
 

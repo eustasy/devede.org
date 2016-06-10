@@ -3,14 +3,14 @@
 	$Page['Type']  = 'Page';
 	$Page['Title'] = 'Download DeVeDe for Debian &nbsp;&middot;&nbsp; DeVeDe, Free Video to DVD Converter.';
 
-	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=http://www.rastersoft.com/descargas/devedeng/python3-devedeng-sid_4.7.0-debian3_all.deb">
-	<script>
-	if (window.ga) {
-		ga("send", "event", "Download", "Debian");
-	}
-</script>';
+	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=http://www.rastersoft.com/descargas/devedeng/python3-devedeng-sid_4.7.0-debian3_all.deb">';
 	require_once $Sitewide['Templates']['Header'];
 ?>
+<script>
+	if ( window.ga ) {
+		ga("send", "event", "Download", "Debian");
+	}
+</script>
 
 <section>
 

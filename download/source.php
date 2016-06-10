@@ -3,14 +3,14 @@
 	$Page['Type']  = 'Page';
 	$Page['Title'] = 'Browse DeVeDe Source on GitHub &nbsp;&middot;&nbsp; DeVeDe, Free Video to DVD Converter.';
 
-	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=https://github.com/rastersoft/devedeng">
-	<script>
-	if (window.ga) {
-		ga("send", "event", "Download", "GitHub (Source)");
-	}
-</script>';
+	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=https://github.com/rastersoft/devedeng">';
 	require_once $Sitewide['Templates']['Header'];
 ?>
+<script>
+	if ( window.ga ) {
+		ga("send", "event", "Download", "GitHub (Source)");
+	}
+</script>
 
 <section>
 

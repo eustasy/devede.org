@@ -3,14 +3,14 @@
 	$Page['Type']  = 'Page';
 	$Page['Title'] = 'Download DeVeDe for Arch &nbsp;&middot;&nbsp; DeVeDe, Free Video to DVD Converter.';
 
-	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=http://www.rastersoft.com/descargas/devedeng/python-devedeng-4.7.0-1-any.pkg.tar.xz">
-	<script>
-	if (window.ga) {
-		ga("send", "event", "Download", "Arch");
-	}
-</script>';
+	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=http://www.rastersoft.com/descargas/devedeng/python-devedeng-4.7.0-1-any.pkg.tar.xz">';
 	require_once $Sitewide['Templates']['Header'];
 ?>
+<script>
+	if ( window.ga ) {
+		ga("send", "event", "Download", "Arch");
+	}
+</script>
 
 <section>
 

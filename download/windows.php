@@ -3,14 +3,14 @@
 	$Page['Type']  = 'Page';
 	$Page['Title'] = 'Download DeVeDe for Windows 7, 8, &amp; 10 &nbsp;&middot;&nbsp; DeVeDe, Free Video to DVD Converter.';
 
-	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=http://files.majorsilence.com/devede/downloads/317-0/devede-setup-3.17.0-build2.msi">
-	<script>
-	if (window.ga) {
-		ga("send", "event", "Download", "Windows 7, 8, & 10");
-	}
-</script>';
+	$Page['Header'] = '<meta http-equiv="refresh" content="3; url=http://files.majorsilence.com/devede/downloads/317-0/devede-setup-3.17.0-build2.msi">';
 	require_once $Sitewide['Templates']['Header'];
 ?>
+<script>
+	if ( window.ga ) {
+		ga("send", "event", "Download", "Windows 7, 8, & 10");
+	}
+</script>
 
 <section>
 
