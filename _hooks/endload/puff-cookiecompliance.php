@@ -14,6 +14,7 @@ if (
 var BodyTag = document.getElementsByTagName('body')[0];
 var CookieComplianceBanner = document.createElement('div');
 CookieComplianceBanner.setAttribute('id', 'cookie-compliance-banner');
+CookieComplianceBanner.setAttribute('class', 'cookie-compliance-banner');
 CookieComplianceBanner.innerHTML = '<p>We use cookies on this site. <a class="close-cookie-banner" href="javascript:void(0);" onclick="removeMe();"><i class="fa fa-times"></i></a></p>';
 BodyTag.insertBefore(CookieComplianceBanner, BodyTag.firstChild);
 document.getElementsByTagName('body')[0].className+=' has-cookie-compliance-banner';
