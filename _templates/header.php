@@ -46,7 +46,7 @@
 <link rel="stylesheet"                  href="https://cdn.jsdelivr.net/g/normalize,colors.css">
 <link rel="stylesheet"                  href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,400italic|Slabo+27px|Inconsolata&subset=latin,latin-ext" data-noprefix>
 <link rel="stylesheet"                  href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css" data-noprefix>
-<link rel="stylesheet"                  href="/assets/css/grid.css">
+<link rel="stylesheet"                  href="/assets/css/grid.min.css">
 <link rel="stylesheet"                  href="/assets/css/devede.css">
 <link rel="stylesheet"                  href="/assets/css/colorbox.custom.css">
 <?php
