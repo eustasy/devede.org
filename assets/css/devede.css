@@ -58,7 +58,7 @@ nav li:last-child a {
 footer {
 	background: #222222;
 	color: #999999;
-	font: 400 .9rem/1.4 'Open Sans', sans-serif;
+	font: 400 0.9rem/1.4 'Open Sans', sans-serif;
 	left: 0;
 	margin-top: 3rem;
 	max-width: 100%;
@@ -66,7 +66,7 @@ footer {
 	right: 0;
 }
 footer a {
-	color: #ccc;
+	color: #cccccc;
 }
 footer a:hover {
 	color: #fafafa;
@@ -94,21 +94,21 @@ a:active {
 }
 a:focus { outline: none; }
 h1 {
-	color: #222;
+	color: #222222;
 	font: 300 5rem/1 'Open Sans', serif;
 	margin: 1rem;
 }
 h2 {
-	font: normal 3em/1 'Slabo 27px', serif;
-	margin: 0 0 .5em;
+	font: 400 3em/1 'Slabo 27px', serif;
+	margin: 0 0 0.5em;
 }
 h3 {
-	font: normal 2em/1 'Slabo 27px', serif;
-	margin: 0 0 .3em;
+	font: 400 2em/1 'Slabo 27px', serif;
+	margin: 0 0 0.3em;
 }
 h4 {
-	font: normal 1.5em/1 'Slabo 27px', serif;
-	margin: 0 0 .5em;
+	font: 400 1.5em/1 'Slabo 27px', serif;
+	margin: 0 0 0.5em;
 }
 h5 {
 	font-size: 1em;
@@ -132,7 +132,7 @@ header h1 {
 	background-position: 1rem center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	border: #ccc 1px solid;
+	border: #cccccc 1px solid;
 	border-radius: 3px;
 	box-shadow:
 		0 2px 5px 0 rgba(0, 0, 0, 0.16),
@@ -145,7 +145,7 @@ header h1 {
 	transition: all 300ms ease-in-out;
 }
 .button:hover {
-	color: #222;
+	color: #222222;
 	opacity: 0.9;
 	transition: all 300ms ease-in-out;
 }
@@ -156,7 +156,6 @@ header h1 {
 .button.warning {
 	background: #e74c3c;
 }
-
 .button img {
 	max-width: 100px;
 	width: 30%;
@@ -184,7 +183,7 @@ img.float-right { margin: 0 0 0 1rem; }
 	margin-bottom: 3rem;
 }
 hr {
-	background: #ccc;
+	background: #cccccc;
 	border: 0;
 	display: block;
 	height: 1px;
@@ -201,7 +200,7 @@ hr {
 	color: #fafafa;
 	text-shadow: none;
 }
-#cookie-compliance-banner {
+.cookie-compliance-banner {
 	background: #eeeeee;
 	padding: 1rem;
 	text-align: center;
