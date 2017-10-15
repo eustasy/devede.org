@@ -16,7 +16,7 @@
 	</div>
 	<div class="whole medium-half">
 		<h3>Major Silence</h3>
-		<p>The Windows Programmer is Major Silence, who's website is <a href="http://www.majorsilence.org/" title="Windows Programmer of DeVeDe">MajorSilence.com</a>, where there's also a <a href="http://www.majorsilence.com/devede" title="DeVeDe on MajorSilence">DeVeDe page</a>.</p>
+		<p>The Windows Programmer is <a href="https://github.com/majorsilence">Major Silence</a>.</p>
 		<p class="align-right"><a href="mailto:&#112;&#101;&#116;&#101;&#114;&#064;&#109;&#097;&#106;&#111;&#114;&#115;&#105;&#108;&#101;&#110;&#099;&#101;&#046;&#099;&#111;&#109;">&#112;&#101;&#116;&#101;&#114;&#064;&#109;&#097;&#106;&#111;&#114;&#115;&#105;&#108;&#101;&#110;&#099;&#101;&#046;&#099;&#111;&#109;</a></p>
 	</div>
 </section>

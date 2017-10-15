@@ -15,7 +15,7 @@
 	</div>
 	<div class="whole medium-half">
 		<h3>The Authors</h3>
-		<p>DeVeDe was originally created by <a href="http://www.rastersoft.com/programas/devede.html" title="DeVeDe on Rastersoft">Rastersoft</a> for <a href="http://www.ubuntu.com/ubuntu" title="Ubuntu">Ubuntu</a> and other <a href="http://www.debian.org/" title="Debain">Debian</a> based systems. Later, <a href="http://www.majorsilence.com/devede" title="DeVeDe on MajorSilence">MajorSilence</a> ported it to windows.</p>
+		<p>DeVeDe was originally created by <a href="http://www.rastersoft.com/programas/devede.html" title="DeVeDe on Rastersoft">Rastersoft</a> for <a href="http://www.ubuntu.com/ubuntu" title="Ubuntu">Ubuntu</a> and other <a href="http://www.debian.org/" title="Debain">Debian</a> based systems. Later, <a href="https://github.com/majorsilence" title="MajorSilence">MajorSilence</a> ported it to windows.</p>
 	</div>
 </section>
 
