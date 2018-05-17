@@ -3,7 +3,7 @@
 	<div class="grid">
 
 		<div class="whole smablet-half large-quarter">
-			<a href="https://eustasy.org/" title="eustasy organisation"><img src="https://eustasy.org/images/eustasy-light.png" class="eustasy"></a>
+			<a href="https://eustasy.org/" title="eustasy organisation"><img src="/assets/images/eustasy-light.png" class="eustasy"></a>
 			<p class="center">A website by <a href="https://eustasy.org/">eustasy</a>.</p>
 			<p class="center"><a href="https://github.com/eustasy/devede.org/issues?direction=desc&amp;milestone=&amp;page=1&amp;sort=updated&amp;state=open"><i class="fa fa-flag"></i>&nbsp; Report a Site Issue</a></p>
 		</div>
@@ -32,7 +32,7 @@
 		</div>
 
 		<div class="whole smablet-half large-quarter">
-			<a href="https://m.do.co/c/eca8f5e3972c" title="Linux VPS Hosting"><img src="https://www.eustasy.org/images/digitalocean-badge.png" alt="Hosted by Digital Ocean - Linux VPS Hosting"></a>
+			<a href="https://m.do.co/c/eca8f5e3972c" title="Linux VPS Hosting"><img src="/assets/images/digitalocean-badge.png" alt="Hosted by Digital Ocean - Linux VPS Hosting"></a>
 		</div>
 
 	</div>
